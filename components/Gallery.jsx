@@ -47,8 +47,8 @@ export default function Gallery() {
           subtitle="A selection of custom kitchens, closets and cabinetry we've crafted for Edmonton homeowners."
         />
 
-        {/* Masonry via CSS columns */}
-        <div className="mt-16 columns-1 gap-5 sm:columns-2 lg:columns-3 [column-fill:_balance]">
+        {/* Uniform responsive grid */}
+        <div className="mt-16 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {images.map((img, i) => (
             <motion.button
               key={img.src}
@@ -58,16 +58,15 @@ export default function Gallery() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.1 }}
               transition={{ duration: 0.5, delay: (i % 3) * 0.1, ease: 'easeOut' }}
-              className="group mb-5 block w-full break-inside-avoid overflow-hidden rounded-xl border border-white/5 bg-panel focus:outline-none focus:ring-2 focus:ring-gold"
+              className="group block w-full overflow-hidden rounded-xl border border-white/5 bg-panel focus:outline-none focus:ring-2 focus:ring-gold"
             >
-              <div className="relative overflow-hidden">
+              <div className="relative aspect-[4/3] overflow-hidden">
                 <Image
                   src={img.src}
                   alt={img.alt}
-                  width={800}
-                  height={600}
+                  fill
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                  className="h-auto w-full transform transition-transform duration-700 ease-out group-hover:scale-110"
+                  className="object-cover transform transition-transform duration-700 ease-out group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
                 <div className="absolute inset-0 flex items-center justify-center opacity-0 transition-opacity duration-300 group-hover:opacity-100">

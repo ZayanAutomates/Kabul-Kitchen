@@ -11,7 +11,7 @@ const points = [
   },
   {
     title: 'On-Time Project Delivery',
-    desc: 'Your project is completed on schedule — we respect your timeline and your home.',
+    desc: 'Your project is completed on schedule. We respect your timeline and your home.',
     icon: (
       <>
         <circle cx="12" cy="12" r="9" />
@@ -31,7 +31,7 @@ const points = [
   },
   {
     title: 'Free In-Home Estimate, We Come To You',
-    desc: 'Book a no-obligation in-home estimate — we visit your space and measure everything for you.',
+    desc: 'Book a no-obligation in-home estimate. We visit your space and measure everything for you.',
     icon: (
       <>
         <path d="M3 12l9-9 9 9" />

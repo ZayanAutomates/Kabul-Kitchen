@@ -7,12 +7,12 @@ const reviews = [
   {
     name: 'Maiuddin Khidri',
     stars: 5,
-    text: 'Kabul Custom Kitchens and Closets did an amazing job with my kitchen design—stylish, functional, and exactly what I wanted. The team was professional, friendly, and very detail-oriented. Their service was excellent from start to finish, making the whole process smooth and stress-free.',
+    text: 'Kabul Custom Kitchens and Closets did an amazing job with my kitchen design, stylish, functional, and exactly what I wanted. The team was professional, friendly, and very detail-oriented. Their service was excellent from start to finish, making the whole process smooth and stress-free.',
   },
   {
     name: 'Chloris Fernandez',
     stars: 5,
-    text: "We are so really impressed with the work. The quality is outstanding, and the price was very reasonable. They're honest, reliable, and clearly take pride in what they do. I got a quotation from 5 companies — I saved 5,000 to 10,000 dollars on the project. We highly recommend them.",
+    text: "We are so really impressed with the work. The quality is outstanding, and the price was very reasonable. They're honest, reliable, and clearly take pride in what they do. I got a quotation from 5 companies, and I saved 5,000 to 10,000 dollars on the project. We highly recommend them.",
   },
   {
     name: 'Appolo Appolo',

@@ -1,4 +1,4 @@
-# Kabul Custom Kitchens & Closets — Website
+# Kabul Custom Kitchens & Closets Website
 
 Premium dark-luxury marketing site for **Kabul Custom Kitchens and Closets**, Edmonton, AB.
 
@@ -45,8 +45,8 @@ components/
   Navbar.jsx       Fixed nav, transparent → solid on scroll, mobile menu
   Hero.jsx         Headline + particles + CTAs
   Particles.jsx    Animated floating gold particles
-  Services.jsx     "What We Build" — 4 cards
-  Gallery.jsx      "Our Previous Work" — masonry + lightbox
+  Services.jsx     "What We Build" (4 cards)
+  Gallery.jsx      "Our Previous Work" (uniform grid + lightbox)
   WhyChooseUs.jsx  4 reasons
   Reviews.jsx      3 five-star reviews
   ContactForm.jsx  Estimate form → Formspree

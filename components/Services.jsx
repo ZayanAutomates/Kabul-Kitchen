@@ -6,7 +6,7 @@ import SectionHeading from './SectionHeading';
 const services = [
   {
     title: 'Custom Kitchen Design & Renovation',
-    desc: 'Bespoke kitchens designed around how you live — from layout and cabinetry to countertops and finishes.',
+    desc: 'Bespoke kitchens designed around how you live, from layout and cabinetry to countertops and finishes.',
     icon: (
       <path d="M3 21V9l9-6 9 6v12h-6v-7H9v7H3z" />
     ),
@@ -39,7 +39,7 @@ const services = [
   },
   {
     title: 'Full Kitchen Remodeling',
-    desc: 'Complete kitchen transformations handled end-to-end — demolition, build and finishing, on time.',
+    desc: 'Complete kitchen transformations handled end-to-end: demolition, build and finishing, on time.',
     icon: (
       <>
         <path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18v3h3l6.3-6.3a4 4 0 0 0 5.4-5.4l-2.5 2.5-2-2 2.5-2.5z" />

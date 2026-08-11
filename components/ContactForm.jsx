@@ -75,7 +75,7 @@ export default function ContactForm() {
         <SectionHeading
           eyebrow="Get Started"
           title="Book Your Free In-Home Estimate"
-          subtitle="We come to you — no obligation, completely free."
+          subtitle="We come to you. No obligation, completely free."
         />
 
         <motion.form
